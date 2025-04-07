@@ -23,7 +23,8 @@
     ```bash
     pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-### 1.4 配置 Jupyter Notebook 和 VSCode
+### 1.4 配置 Jupyter Notebook 或 VSCode
+#### 配置 Jupyter Notebook
 1. 在激活的环境下安装 Jupyter Notebook：
     ```bash
     pip install jupyter notebook
@@ -33,8 +34,8 @@
 3. 打开 Jupyter Notebook：
     ```bash
     jupyter notebook
-
-4. 在 VSCode 中，选择 course_env 作为 Python 解释器：
+#### 配置 VSCode
+1. 在 VSCode 中，选择 course_env 作为 Python 解释器：
     打开 VSCode，按下 Ctrl+Shift+P，输入 Python: Select Interpreter，然后选择 course_env。
 
 ### 1.5 准备代码
@@ -42,4 +43,5 @@
 在 Jupyter Notebook 或 VSCode 中打开代码文件，开始编写和运行代码。
 
 # 2. 集群部署
-https://docs.hpc.sjtu.edu.cn/studio/jupyter.html 
+Jupyter Notebook：  https://docs.hpc.sjtu.edu.cn/studio/jupyter.html 
+VSCode： https://docs.hpc.sjtu.edu.cn/studio/rstudio.html
