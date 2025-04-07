@@ -11,7 +11,7 @@
 ### 1.2 创建课程环境
 1. 使用 Conda 创建一个新的环境，并指定 Python 版本：
     ```bash
-    conda create -n course_env python=3.8
+    conda create -n course_env python=3.10
 
 2. 激活环境：
     ```bash
